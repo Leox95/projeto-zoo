@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.item-menu{
+    padding: 1rem;
+    margin-right: 10px;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+.bichos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
